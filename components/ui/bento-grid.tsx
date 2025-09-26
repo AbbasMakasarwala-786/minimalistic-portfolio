@@ -52,11 +52,29 @@ export const BentoGridItem = ({
 }) => {
   
   const [copied,setCopied] = useState(false);
-  const handleCopy=()=>
-  {
-    navigator.clipboard.writeText("abbasmakasarwala1@gmail.com")
+  const handleCopy = () => {
+  const email = "abbasmakasarwala1@gmail.com";
+  
+  // Create a temporary textarea element
+  const textArea = document.createElement('textarea');
+  textArea.value = email;
+  textArea.style.position = 'fixed';
+  textArea.style.left = '-999999px';
+  textArea.style.top = '-999999px';
+  
+  document.body.appendChild(textArea);
+  textArea.focus();
+  textArea.select();
+  
+  try {
+    document.execCommand('copy');
     setCopied(true);
+  } catch (err) {
+    console.error('Failed to copy email:', err);
   }
+  
+  document.body.removeChild(textArea);
+};
   const leftLists = ["Machine Learning","Deep Learning","MLOPs"];
   const rightLists = ["AWS","Python","JavaScript"];
   return (
@@ -148,9 +166,9 @@ export const BentoGridItem = ({
                     loop:copied,
                     autoplay:copied,
                     animationData:animationData,
-                    rendererSettings:{
-                        preverveAspectRatio:'xMidYMid slice'
-                    }
+                    // rendererSettings:{
+                    //     preverveAspectRatio:'xMidYMid slice'
+                    // }
                   }} />
 
               </div>
