@@ -8,16 +8,16 @@ const currentDate = new Date(); // Creates a new Date object representing the cu
 const currentYear = currentDate.getFullYear();
   return (
     <div className=' w-full' id='contact'>
-       <div className='w-full absolute left-0 -bottom-72 min-h-96 bg-black-100'>
+       {/* <div className='w-full absolute left-0 translate-x-[-100%] -bottom-72 min-h-96 bg-black-100'>
         <img 
         src='/footer-grid.svg'
         alt="grid"
         className='w-full h-full opacity-75'
         />
-       </div>
+       </div> */}
         
         <div className='flex flex-col items-center text-bold'>
-        <h1 className='heading lg:max-w-[45vw] '>Ready to take <span className='text-purple'> your </span> 
+        <h1 className='heading lg:max-w-[45vw] overflow-visible'>Ready to take <span className='text-purple'> your </span> 
         presence to the next level ?</h1>
         <p className='text-white-200 md:mt-10 my-5 text-center' >  
             <h3>Reach out to me today and let&apos;s discuss how I can help you achive your goals.</h3> 
