@@ -7,7 +7,7 @@ const Footer = () => {
 const currentDate = new Date(); // Creates a new Date object representing the current date and time
 const currentYear = currentDate.getFullYear();
   return (
-    <div className=' w-full' id='contact'>
+    <div className=' w-full mb-[100px]' id='contact'>
        {/* <div className='w-full absolute left-0 translate-x-[-100%] -bottom-72 min-h-96 bg-black-100'>
         <img 
         src='/footer-grid.svg'
