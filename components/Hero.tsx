@@ -4,10 +4,11 @@ import { cn } from "@/lib/utils";
 import { TextGenerateEffect } from './ui/text-generate-effect';
 import MagicButton from './ui/MagicButton';
 import { FaLocationArrow } from 'react-icons/fa';
+import { socialMedia } from '@/data';
 
 const Hero = () => {
   return (
-    <div className='pb-20 pt-36'>
+    <div className='pb-20 pt-30'>
       <div>
         <Spotlight className='-top-40 -left-10 md:-left-32 
         md:-top-20 h-screen' fill="white" />
@@ -47,6 +48,19 @@ const Hero = () => {
           />
           <p className='text-center md:tracking-wider mb-4 md:text-lg lg:text-2xl inline'>Hi, I'm Abbas Saifee Makasarwala, an AI/ML Engineer,Data Science Entusiast with a passion for Robotics.</p>
           
+          <div className='flex items-center pt-4 pb-4 justify-center md:gap-3 gap-6'>
+                      {socialMedia .map((profile) => (
+                          <div key={profile.id} className='w-10 h-10 flex cursor-pointer justify-center items-center backdrop-filter backdrop-blur-lg saturate-180 bg-opacity-75 bg-black-100 rounded-lg border border-black-300'>
+                          <a href={profile.link}>
+                          <img src={profile.img}  
+                          width={20} height={20}
+                          /></a>
+                          </div>
+                      ))}
+          </div>
+
+
+
           <a href='#about'>
             <MagicButton 
                title="Show my work"

@@ -151,4 +151,9 @@ export const socialMedia = [
     img: "/link.svg",
     link:"https://www.linkedin.com/in/abbas-makasarwala"
   },
+  {
+    id: 4,
+    img: "/resume.png",
+    link:"https://drive.google.com/file/d/1LIRuPn9X38nfr6_v1v2XjQc-eoXkZ18P/view?usp=drivesdk"
+  },
 ];
