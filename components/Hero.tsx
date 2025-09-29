@@ -45,7 +45,7 @@ const Hero = () => {
           className='text-center text-[30px] md:text-5xl lg:text-6xl'
           words='Building Experiences that Matter, Powered by Intelligence.'
           />
-          <p className='text-center md:tracking-wider mb-4 md:text-lg lg:text-2xl inline'>Hi, I'm Abbas Saifee Makasarwala, an AI/ML Engineer with a passion for Robotics.</p>
+          <p className='text-center md:tracking-wider mb-4 md:text-lg lg:text-2xl inline'>Hi, I'm Abbas Saifee Makasarwala, an AI/ML Engineer,Data Science Entusiast with a passion for Robotics.</p>
           
           <a href='#about'>
             <MagicButton 

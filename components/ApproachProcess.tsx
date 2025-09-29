@@ -11,15 +11,15 @@ const ApproachProcess = () => {
         My <span className="text-purple"> Approach </span>
       </h1>
       <div className="my-20 flex flex-col lg:flex-row items-center justify-center gap-6 ">
-        <Card title="Planning and Strategy" icon={<AceternityIcon order="Phase 1" />}
-        description = "okay i will put it later on" >
+        <Card title="Project Initiation" icon={<AceternityIcon order="Phase 1" />}
+        description = "Defining precise goals and selecting the optimal tools and technologies." >
           <CanvasRevealEffect
             animationSpeed={5.1}
             containerClassName="bg-emerald-900"
           />
         </Card>
-        <Card title="Nisha is Munni" icon={<AceternityIcon order="Phase 2" />} 
-         description = "okay i will put it later on">
+        <Card title="Agile Execution" icon={<AceternityIcon order="Phase 2" />} 
+         description = "Building robust, testable features through iterative and modular design.">
           <CanvasRevealEffect
             animationSpeed={3}
             containerClassName="bg-black"
@@ -32,8 +32,8 @@ const ApproachProcess = () => {
           {/* Radial gradient for the cute fade */}
           {/* <div className="absolute inset-0 [mask-image:radial-gradient(400px_at_center,white,transparent)] bg-black/50 dark:bg-black/90" /> */}
         </Card>
-        <Card title="Munni is Aditi" icon={<AceternityIcon order="Phase 3"/>}
-         description = "okay i will put it later on">
+        <Card title="Deployment & Optimization" icon={<AceternityIcon order="Phase 3"/>}
+         description = "Implementing CI/CD for rapid launch and data-driven performance tuning.">
           <CanvasRevealEffect
             animationSpeed={3}
             containerClassName="bg-sky-600"
