@@ -75,7 +75,7 @@ export const projects = [
     title: "Personal AI Agent",
     des: "This is a personal AI agent that can automate your daily task like sending tweets creating documents,Summarizing Emails,doing research and much more",
     img: "/AI Agent.png",
-    iconLists: ["/langgraph.png ", "/langsmith.png", "/python.png", "/groq.DEFAULT", "/gcp.png"],
+    iconLists: ["/langgraph.png ", "/langsmith.png", "/python.png", "/groq.png", "/gcp.png"],
     link: "https://github.com/AbbasMakasarwala-786/personal-AI-Agent-advanced-",
   },
   {
@@ -157,3 +157,25 @@ export const socialMedia = [
     link:"https://drive.google.com/file/d/1LIRuPn9X38nfr6_v1v2XjQc-eoXkZ18P/view?usp=drivesdk"
   },
 ];
+
+export const metadata_text = `
+Abbas Makasarwala is a Computer Engineering student specializing in Machine Learning, Data Science, and MLOps. 
+With experience in AI-powered SaaS, Deep Learning, Computer Vision, and Recommendation Systems, Abbas has built impactful
+projects like a Hybrid Anime Recommendation System (Docker, DVC, MLflow), LipNet-based lip-reading model, and custom AI Agents
+with LangChain. Skilled in Python, TensorFlow, Flask, FastAPI, Docker, AWS, and CI/CD pipelines, Abbas is passionate about 
+building intelligent, scalable AI solutions.`
+
+export const keywords = `
+Machine Learning Engineer, Data Scientist, Artificial Intelligence, Deep Learning, Computer Vision,
+Natural Language Processing, Recommendation Systems, Predictive Analytics, Data Science Intern, Machine Learning Intern,
+MLOps Engineer, Docker for Machine Learning, CI/CD pipelines, Jenkins automation, GitLab CI/CD, MLflow tracking, DVC Data Version Control, 
+AWS for Machine Learning, Cloud Deployment AI, Flask API Deployment, Python for Data Science, Pandas data analysis, NumPy, 
+TensorFlow Developer, Scikit-learn projects, YOLOv8 object detection, U-Net segmentation, LangChain developer, LangGraph workflows, 
+FastAPI development, Anime Recommendation System, Hybrid Recommender System, LipNet Lip Reading Model, AI Financial Report Generator, 
+Vehicle Speed Detection AI, AI PDF report automation, Personal AI Agent, Digital Forensics Virtual Lab, Real-time AI applications, 
+AI SaaS Projects, Computer Engineering Student Mumbai, B.Tech Data Science Honours, AI Engineer Portfolio, Data Science Projects Portfolio, 
+Open Source Contributions GitHub, AI and ML Internship Experience, Caprae Capitals Partners Internship, Celebal Technologies Internship, 
+KJ Somaiya Institute of Technology,KJSIT, AI Enthusiast Mumbai, Entry-level Machine Learning Engineer, Data Science Fresher Projects, 
+AI SaaS Backend Developer, Python Backend Developer, AI Research Projects, Computer Vision Engineer, Applied AI Developer, Cloud AI Solutions,
+Scalable AI Pipelines, Intelligent Automation with AI,Next JS,React JS
+`

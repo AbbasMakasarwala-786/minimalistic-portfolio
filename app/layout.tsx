@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import { ThemeProvider } from "./provider";
+import { keywords, metadata_text } from "@/data";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -15,7 +16,16 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   title: "Abbas Makasarwala Portfolio Website",
-  description: "Abbas Makasarwala's Portfolio Website Showcasing His Achivements, Projects and Experince.",
+  description: metadata_text,
+  keywords:keywords,
+  openGraph:{
+    title: "Abbas Makasarwala Portfolio Website",
+    description: metadata_text,
+    images:[
+      './lipnet.png'
+    ],
+    url:"https://github.com/AbbasMakasarwala-786"
+  } 
 };
 
 export default function RootLayout({
