@@ -10,5 +10,9 @@ const nextConfig: NextConfig = {
     ignoreDuringBuilds:true,
   }
 };
-
+// next.config.js
+module.exports = {
+  trailingSlash: false,
+  skipTrailingSlashRedirect: true,
+}
 export default nextConfig;
